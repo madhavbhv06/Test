@@ -16,4 +16,4 @@ services:
       - "25225:25225"
       - "25224:25224/udp"
     networks:
-      - edgex-network
+      - compose-files_edgex-network
