@@ -17,3 +17,7 @@ services:
       - "25224:25224/udp"
     networks:
       - compose-files_edgex-network
+      
+networks:
+  compose-files_edgex-network:
+    external: true
